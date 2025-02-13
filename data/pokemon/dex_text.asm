@@ -298,6 +298,16 @@ _TangelaDexEntry::
 	next "shake as it walks"
 	dex
 
+_QuaquavalDexEntry::
+	text "This Pokemon uses"
+	next "its powerful legs"
+	next "to perform"
+
+	page "striking dances"
+	next "from far-off"
+	next "lands"
+	dex
+
 _GrowlitheDexEntry::
 	text "Very protective"
 	next "of its territory."
