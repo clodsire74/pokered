@@ -40,7 +40,7 @@ EvosMovesPointerTable:
 	dw BlastoiseEvosMoves
 	dw PinsirEvosMoves
 	dw TangelaEvosMoves
-	dw MissingNo1FEvosMoves
+	dw QuaquavalEvosMoves
 	dw MissingNo20EvosMoves
 	dw GrowlitheEvosMoves
 	dw OnixEvosMoves
@@ -547,10 +547,16 @@ TangelaEvosMoves:
 	db 49, GROWTH
 	db 0
 
-MissingNo1FEvosMoves:
+QuaquavalEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 8, PECK
+	db 17, LOW_KICK
+	db 27, FOCUS_ENERGY
+	db 36, AQUA_STEP
+	db 42, MEGA_KICK
+	db 52, HYDRO_PUMP
 	db 0
 
 MissingNo20EvosMoves:
